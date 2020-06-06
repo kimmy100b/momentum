@@ -43,8 +43,11 @@ function saveToDos(){ //toDos를 가져와서 로컬에 저장하는 일
  function loadToDos(){
     const loadToDos = localStorage.getItem(TODOS_LS);
     if(loadToDos !== null){
-    
-    } 
+       const parsedToDos = JSON.parse(loadToDos);
+       parsedToDos.forEach(function(toDo){
+          paintToDo(toDo.text);
+       });
+      } 
  }
 
  function init(){

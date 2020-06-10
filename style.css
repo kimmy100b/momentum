@@ -28,12 +28,13 @@ body{
 }
 
 .form,
-.gretting{
+.greeting{
     display: none;
 }
 
 .showing{
     display: block;
+    float: left;
 }
 
 
@@ -68,3 +69,10 @@ body{
 .map-marker{
     font-size:15px;
 }
+
+.edit{
+    position: absolute;
+    top: 56%;
+    margin-left: 5px;
+}
+

@@ -71,8 +71,8 @@ body{
 }
 
 .edit{
-    position: absolute;
-    top: 56%;
+    position: relative;
     margin-left: 5px;
+    left: 0;
+    margin-top: 25px;
 }
-

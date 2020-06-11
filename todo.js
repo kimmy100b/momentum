@@ -28,7 +28,7 @@ function saveToDos(){ //toDos를 가져와서 로컬에 저장하는 일
    const span = document.createElement("span");
    const newId = toDos.length+1;
    
-   delBtn.innerText = "X";
+   delBtn.innerText = "x";
    delBtn.addEventListener("click",deleteToDo);
    span.innerText = text;
    li.appendChild(span);
